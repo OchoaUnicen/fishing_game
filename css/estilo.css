@@ -1,0 +1,13 @@
+body {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#lienzo{
+
+    border: solid black;
+
+}
