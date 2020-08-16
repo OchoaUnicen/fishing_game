@@ -10,6 +10,7 @@ let gameState = "interfaz";
 let background = new Background();
 let interfaz = new Interfaz();
 let fishing_rod = new FishingRod();
+fishing_rod.cargarImagenes();
 let fish1 = new Fish();
 
 let ola = new Ola();

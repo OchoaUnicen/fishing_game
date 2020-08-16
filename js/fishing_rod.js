@@ -56,6 +56,74 @@ class FishingRod {
     }
 
 
+
+
+    cargarImagenes() {
+
+        const CANTIDAD_IMAGENES_TIRANDO = 5;
+
+        for (let i = 1 ; i < CANTIDAD_IMAGENES_TIRANDO + 1; i++) {
+
+            
+            this.imagen.src = "./img/desktop_responsive/tirando_"+i+".png";
+         
+        }
+
+        for (let j = 1 ; j < CANTIDAD_IMAGENES_TIRANDO + 1; j++) {
+
+            this.imagen.src = "./img/desktop_responsive/tirando_"+j+"_derecha.png";
+  
+        }
+
+
+
+
+        for (let k = 1 ; k < CANTIDAD_IMAGENES_TIRANDO + 1; k++) {
+
+            this.imagen_boya.src = "./img/desktop_responsive/boya_"+k+".png";
+          
+
+        }
+
+
+
+        for (let l = 1 ;l < CANTIDAD_IMAGENES_TIRANDO + 1; l++) {
+
+          
+        this.imagen_boya.src = "./img/desktop_responsive/boya_"+l+"_derecha.png";
+       
+        }
+       
+        
+
+
+
+
+
+
+
+        this.imagen_boya.src = "./img/desktop_responsive/boya_2.png";
+        this.imagen.src = "./img/desktop_responsive/fishing_rod.png";
+       
+
+        // "./img/desktop_responsive/tirando_1.png";
+        //5
+
+
+        // this.imagen.src = "./img/desktop_responsive/tirando_1_derecha.png";
+        //5
+
+
+
+
+
+
+
+
+
+    }
+
+
     animacionTirar(){
         //console.log(this.cd_tirar);
 
